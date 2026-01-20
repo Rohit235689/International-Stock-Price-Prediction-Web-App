@@ -1,0 +1,36 @@
+# ===============================
+# Core ML (Python 3.12 compatible)
+# ===============================
+tensorflow==2.19.0
+ml-dtypes>=0.5.0
+
+numpy>=2.0,<2.3
+pandas>=2.1
+scikit-learn>=1.4
+statsmodels>=0.14
+matplotlib>=3.8
+seaborn>=0.13
+
+# ===============================
+# NLP
+# ===============================
+nltk>=3.8
+textblob>=0.17
+
+# ===============================
+# Web / UI
+# ===============================
+streamlit>=1.30
+flask>=2.3
+
+# ===============================
+# Finance
+# ===============================
+yfinance
+alpha_vantage
+
+# ===============================
+# Tweet preprocessing (CSV-based)
+# ===============================
+tweet-preprocessor @ https://pypi.anaconda.org/berber/simple/tweet-preprocessor/0.5.0/tweet-preprocessor-0.5.0.tar.gz
+
